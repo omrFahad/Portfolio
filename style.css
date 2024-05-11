@@ -213,6 +213,8 @@ body {
     margin: 40px;
 }
 
+
+
 .projects-container h2 {
     color: tan;
     scrollbar-width: none;
@@ -230,16 +232,21 @@ body {
 
 .projects .firstProject {
     margin: 0px 40px 40px;
-    scrollbar-width: none;
-
 }
 
 .projects .secondProject {
+    margin-bottom: 40px;
+}
+
+.firstProject,
+.secondProject,
+.thirdProject {
     overflow-y: hidden;
 }
 
 .projects .firstProject .image,
-.secondProject .image2 {
+.secondProject .image2,
+.thirdProject .image3 {
     width: max-content;
     padding: 130px 180px;
     background-position: center;
@@ -249,19 +256,24 @@ body {
 }
 
 .projects .firstProject .image {
-    background-image: linear-gradient(120deg, #d2b48c80, #22222280), url("images/Green\ Tree\ Website.png");
+    background-image: linear-gradient(120deg, #537a0085, #22222240), url("images/Green\ Tree\ Website.png");
 }
 
 
 .projects .firstProject .image:hover,
-.secondProject .image2:hover {
-    transform: scale(1.02);
+.secondProject .image2:hover,
+.thirdProject .image3:hover {
+    transform: scale(1.015);
     cursor: pointer;
 }
 
 
 .projects .secondProject .image2 {
-    background-image: linear-gradient(120deg, #d2b48c80, #22222280), url("images/MyFirstShirt\ Website.png");
+    background-image: linear-gradient(120deg, #eeeeee85, #22222240), url("images/MyFirstShirt\ Website.png");
+}
+
+.projects .thirdProject .image3 {
+    background-image: linear-gradient(120deg, #4b85f285, #22222240), url("images/rps.png");
 }
 
 .projects h4 {
@@ -327,7 +339,8 @@ body {
     }
 
     .projects .firstProject .image,
-    .secondProject .image2 {
+    .secondProject .image2,
+    .thirdProject .image3 {
         width: 100%;
         padding: 100px 160px;
         background-position: center;
@@ -412,7 +425,8 @@ body {
     }
 
     .projects .firstProject .image,
-    .secondProject .image2 {
+    .secondProject .image2,
+    .thirdProject .image3 {
         width: 100%;
         padding: 90px 130px;
         background-position: center;
